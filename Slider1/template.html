@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!-- The new doctype -->
+<html>
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Photo slide</title>
+
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+
+    <body onLoad="Slider(); Slider1(), Slider2();">
+
+    	<section id="page"> <!-- Defining the #page section with the section tag -->
+
+            <header> <!-- Defining the header section of the page with the appropriate tag -->
+
+                <hgroup>
+                    <h1>SilentFlame</h1>
+                    <h3>Patience is all that's needed</h3>
+                </hgroup>
+
+                <nav class="clear"> <!-- The nav link semantically marks your main site navigation -->
+                    <ul>
+                        <li><a href="#article1">Lincon</a></li>
+                        <li><a href="#article2">Steve Jobs</a></li>
+                        <li><a href="#article3">About Life</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+
+            <section id="articles"> <!-- A new section with the articles -->
+
+				<!-- Article 1 start -->
+
+                <div class="line"></div>  <!-- Dividing line -->
+
+                <article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+                    <h2>Abrahm Lincon</h2>
+
+                    <div class="line"></div>
+
+                    <div class="articleBody clear">
+
+                    	<figure> <!-- The figure tag marks data (usually an image) that is part of the article -->
+                          <img source="Images/Lincon1.png" id="imgL"/>
+                        </figure>
+
+                        <p>Abraham Lincoln (Listeni/ˈeɪbrəhæm ˈlɪŋkən/; February 12, 1809 – April 15, 1865) was the 16th President of the United States, serving from March 1861 until his assassination in April 1865</p>
+                        <p>Lincoln led the United States through its Civil War—its bloodiest war and its greatest moral, constitutional, and political crisis.[1][2] In doing so, he preserved the Union, abolished slavery, strengthened the federal government, and modernized the economy. </p>
+                    </div>
+                </article>
+
+				<!-- Article 1 end -->
+
+
+				<!-- Article 2 start -->
+
+                <div class="line"></div>
+
+                <article id="article2">
+                    <h2>Steve Jobs</h2>
+
+                    <div class="line"></div>
+
+                    <div class="articleBody clear">
+                    	<figure>
+                        <img source="Images/Jobs1.jpg" id="imgJ"/>
+                      </figure>
+
+                        <p>Steven Paul "Steve" Jobs (/ˈdʒɒbz/; February 24, 1955 – October 5, 2011) was an American information technology entrepreneur and inventor. He was the co-founder, chairman, and chief executive officer (CEO) of Apple Inc.; CEO and majority shareholder of Pixar Animation Studios;[3] a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and founder, chairman, and CEO of NeXT Inc.</p>
+                        <p> Jobs is widely recognized as a pioneer of the microcomputer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak. Shortly after his death, Jobs's official biographer, Walter Isaacson, described him as a "creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing. </p>
+                    </div>
+                </article>
+
+				<!-- Article 2 end -->
+
+				<!-- Article 3 start -->
+
+                <div class="line"></div>
+
+                <article id="article3">
+                    <h2>About Life</h2>
+
+                    <div class="line"></div>
+
+                    <div class="articleBody clear">
+                    	<figure>
+                        <img src="Images/Life1.jpg" id="imgLi"/>
+                      </figure>
+
+                        <p>Life is a characteristic distinguishing physical entities having biological processes, such as signaling and self-sustaining processes, from those that do not, either because such functions have ceased, or because they never had such functions and are classified as inanimate. Various forms of life exist such as plants, animals, fungi, protists, archaea, and bacteria.</p>
+                        <p>The definition of life is controversial. The current definition is that organisms maintain homeostasis, are composed of cells, undergo metabolism, can grow, adapt to their environment, respond to stimuli, and reproduce. However, many other biological definitions have been proposed, and there are also some borderline cases, such as viruses. Biophysicists have also proposed some definitions, many being based on chemical systems. </p>
+                    </div>
+                </article>
+
+				<!-- Article 3 end -->
+
+
+            </section>
+
+        <footer> <!-- Marking the footer section -->
+
+           <div class="line"></div>
+
+           <p>Copyright 2016 - SilentFlame</p> <!-- Change the copyright notice -->
+
+           <a href="#" class="up">Go UP</a>
+           <a href="http://tutorialzine.com/2010/02/html5-css3-website-template/" class="by">Template by Tutorialzine</a>
+
+
+        </footer>
+
+		</section> <!-- Closing the #page section -->
+
+        <!-- JavaScript Includes -->
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
